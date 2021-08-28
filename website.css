@@ -1,0 +1,1099 @@
+body {
+    background-color: #F1E3E4;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.nav-container{
+     overflow: hidden;
+     background-color: rgba(8, 8, 8, 0.87);
+}
+.nav-container li {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 0;
+  }
+  .nav-container li:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .nav-container li.active {
+    background-color: #91aa04;
+    color: white;
+  }
+  .nav-container{
+      text-align: center;
+      border-style: solid;
+  }
+  body{
+      text-align: center;
+  }
+  .logo{
+      text-align: left;
+  }
+  .nav-items{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 40px;
+      color: #DD6B6B;
+      position:relative;
+      width:1500px;
+     height: 50px;
+     text-align: center;
+  }
+  .logo{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow:visible;
+    margin-top: -6px;
+  }
+  .first-intro{
+    font-style:oblique;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 56px;
+    text-shadow: 4px 4px 5px rgb(110, 106, 106);
+}
+.first-sentence{
+    font-size: 35px;
+    font-family:monospace;
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+   /*aboutpage*/
+
+
+  .about-body{
+    height: 100%;
+    margin: 0;
+  }
+  .about-body{
+    background-image: url("https://c0.wallpaperflare.com/preview/503/170/406/hong-kong-hong-kong-island-signs-chinese-thumbnail.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size:cover;
+    background-color: #F1E3E4;
+
+  }
+  .about-boxed{
+    border: 15px solid #F1E3E4 ;
+    height: 1000px;
+    width: 1200px;
+    padding: 50px;
+    margin: 60px;
+    background-color: #F1E3E4;
+    align-self: center;
+  }
+
+
+  .aboutheading{
+      font-style:oblique;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 36px;
+      text-shadow: 4px 4px 5px rgb(110, 106, 106);
+  }
+  .para{
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 38px;
+      text-align: center;
+      line-height: 55.6px;
+  }
+.quote{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+   
+   /*mainpageimages*/
+
+  .cantopop{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow:visible;
+    position: relative;
+    float: left;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+
+  .eggtart{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow:visible;
+    position: relative;
+    float: left;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+  .basketball{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow:visible;
+    position:relative;
+    float:right;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+  .winterdaily{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    overflow:visible;
+    position: relative;
+    float: right;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+
+
+
+
+
+
+
+
+    /*mainpagebuttons*/
+  .music-button{
+    z-index: index 500;
+    float:left; 
+    margin:1 20 -20 20;
+    width:290px;
+    height:auto;
+    border-radius:10px;
+    background-color: #BB9BB0;
+    border: solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:-ms-flexbox;
+    font-size: 16px;
+  }
+  .foods-button{
+    z-index:500;
+    float:left;
+    margin:1 20 -20 20;
+    width:290px;
+    height:auto;
+    border-radius:10px;
+    background-color: #BB9BB0;
+    border: solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:-ms-flexbox;
+    font-size: 16px;
+  }
+  .sports-button{
+    z-index:500;
+    float:right;
+    margin:1 20 -20 20;
+    width:290px;
+    height:auto;
+    border-radius:10px;
+    background-color: #BB9BB0;
+    border: solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:-ms-flexbox;
+    font-size: 16px;
+  }
+  .fashion-button{
+    z-index:500;
+    float:right ;
+    margin:1 20 -20 20;
+    width:290px;
+    height:auto;
+    border-radius:10px;
+    background-color: #BB9BB0;
+    border: solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:-ms-flexbox;
+    font-size: 16px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*supprt*/
+
+  .Support-body{
+    height: 100%;
+    margin: 0;
+  }
+  .music-head{
+    font-style:oblique;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    text-shadow: 4px 4px 5px rgb(110, 106, 106);
+  }
+ .Support-body{
+    background-image: url("https://c0.wallpaperflare.com/preview/503/170/406/hong-kong-hong-kong-island-signs-chinese-thumbnail.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size:cover;
+    background-color: #F1E3E4;
+}
+
+.boxed {
+    border: 15px solid #F1E3E4 ;
+    height: 300px;
+    width: 550px;
+    padding: 50px;
+    margin: 20px;
+    background-color: #F1E3E4;
+    align-self: center;
+  }
+
+  .Supoprt-head{
+      font-size: 40px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .Donate{
+      font-size: 25px; 
+      font-family: sans-serif;
+  }
+.Follow{
+    font-size: 25px; 
+    font-family: sans-serif;
+}
+.subscribe{
+    font-size: 25px; 
+    font-family: sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*music*/
+.music-head{
+    font-style:oblique;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 36px;
+      text-shadow: 4px 4px 5px rgb(110, 106, 106);font-style:oblique;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 36px;
+      text-shadow: 4px 4px 5px rgb(110, 106, 106);
+    
+}
+.cantopop2{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow:visible;
+    position: relative;
+    float:left;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+
+}
+.cantorap{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow:visible;
+    position: relative;
+    float:left;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+  }
+.electronicmusic{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow:visible;
+    position: relative;
+    float: right;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.cantopoptxt{
+    z-index:500;
+    float:left;
+    margin:1 20 -20 20;
+    width:420px;
+    height:auto;
+    border-radius:10px;
+    background-color: #BB9BB0;
+    border: solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:-ms-flexbox;
+    font-size: 16px;
+}
+.cantoraptxt{
+    z-index:500;
+    float:left;
+    margin:1 20 -20 20;
+    width:390px;
+    height:auto;
+    border-radius:10px;
+    background-color: #BB9BB0;
+    border: solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:-ms-flexbox;
+    font-size: 16px;
+}
+.EMtxt{
+    z-index:500;
+    float:right;
+    margin:1 20 -20 20;
+    width:390px;
+    height:auto;
+    border-radius:10px;
+    background-color: #BB9BB0;
+    border: solid;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display:-ms-flexbox;
+    font-size: 16px;
+}
+.spotify1{
+    text-align: center;
+    font-size: 25px;
+}
+.spotify2{
+    text-align: center;
+    font-size: 25px;
+}
+.spotify3{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+
+
+/*Foods*/
+
+.food-body{
+    height: 100%;
+}
+
+.food-head{
+  font-style:oblique;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 36px;
+      text-shadow: 4px 4px 5px rgb(110, 106, 106);font-style:oblique;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 36px;
+      text-shadow: 4px 4px 5px rgb(110, 106, 106);
+}
+.egg{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.fishball{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: right;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.milktea{
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: right;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.eggtxt{
+  z-index:500;
+  float:left;
+  margin:1 20 -20 20;
+  width:390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+}
+.milkteatxt{
+  z-index:500;
+  float:left;
+  margin:1 20 -20 20;
+  width:390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+}
+.fishballtxt{
+  z-index:500;
+  float:left;
+  margin:1 20 -20 20;
+  width:390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+
+}
+
+.beefnoodle{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.charsiu{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.bun{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.shrimp{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.beefnoodletxt{
+  z-index:500;
+  float:left;
+  margin:1 20 -20 20;
+  width: 300px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+  
+}
+.charsiutxt{
+  z-index:500;
+  float:left;
+  margin:1 20 -20 20;
+  width: 300px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+
+}
+.buntxt{ z-index:500;
+  float:left;
+  margin:1 20 -20 20;
+  width: 300px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+}
+.shrimptxt{
+  float:left;
+  margin:1 20 -20 20;
+  width: 300px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+}
+
+
+
+
+/*fashion*/
+.fashion-body{
+  height: 100%;
+}
+
+.fashion-head{
+  font-style:oblique;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 36px;
+      text-shadow: 4px 4px 5px rgb(110, 106, 106);font-style:oblique;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 36px;
+      text-shadow: 4px 4px 5px rgb(110, 106, 106);
+
+}
+.wsummerformal{
+  width: 500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.wsummercasual{
+  width: 500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.wsummerdaily{
+  width: 500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.summerformaltxt{
+  float:left;
+  margin:1 20 -20 20;
+  width: 390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+
+}
+.summercasualtxt{
+  float:left;
+  margin:1 20 -20 20;
+  width: 390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+
+}
+.summerdailytxt{
+  float:left;
+  margin:1 20 -20 20;
+  width: 390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+
+}
+.msummerformal{
+  width: 500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.msummercasual{
+  width: 500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.msummerdaily{
+  width: 500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.mwinterformal{
+  width: 500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.mwintercasual{
+  width: 500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.mwinterdaily{
+  width: 500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.winterformaltxt{
+  float:left;
+  margin:1 20 -20 20;
+  width: 390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+
+}
+.wintercasualtxt{
+  float:left;
+  margin:1 20 -20 20;
+  width: 390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+
+}
+.winterdailytxt{
+  float:left;
+  margin:1 20 -20 20;
+  width: 390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+
+}
+.wwinterformal{
+  width: 500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.wwintercasual{
+  width: 500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.wwinterdaily{
+  width: 500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*sports*/
+.sports-body{
+  height: 100%;
+}
+
+.sports-head{
+  font-style:oblique;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 36px;
+      text-shadow: 4px 4px 5px rgb(110, 106, 106);font-style:oblique;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 36px;
+      text-shadow: 4px 4px 5px rgb(110, 106, 106);
+}
+
+
+.badminton{
+  width: 500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.soccer{
+  width:  500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.swimming{
+  width:  500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.badmintontxt{
+  float:left;
+  margin:1 20 -20 20;
+  width: 390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+
+}
+.soccertxt{
+  float:left;
+  margin:1 20 -20 20;
+  width: 390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+
+}
+.swimmingtxt{
+  float:left;
+  margin:1 20 -20 20;
+  width: 390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+
+}
+.volleyball{
+  width:  500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.tennis{
+  width:  500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+.bball{
+  width:  500px;
+  height:  500px;
+  border-radius: 50%;
+  overflow:visible;
+  position: relative;
+  float: left;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+}
+
+.volleyballtxt{
+  float:left;
+  margin:1 20 -20 20;
+  width: 390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+
+}
+.tennistxt{
+  float:left;
+  margin:1 20 -20 20;
+  width: 390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+
+}
+.bballtxt{
+  float:left;
+  margin:1 20 -20 20;
+  width: 390px;
+  height:auto;
+  border-radius:10px;
+  background-color: #BB9BB0;
+  border: solid;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:-ms-flexbox;
+  font-size: 16px;
+
+}
+
+
+/*chat*/
+
+.chat-body{
+  height: 100%;
+}
+
+.chat-body{
+  background-image: url("https://c0.wallpaperflare.com/preview/503/170/406/hong-kong-hong-kong-island-signs-chinese-thumbnail.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size:cover;
+  background-color: #F1E3E4;
+
+}
+
+.boxedchat{
+  border: 15px solid #F1E3E4 ;
+  height: 100%;
+  width: 550px;
+  padding: 100px;
+  margin: 20px;
+  background-color: #F1E3E4;
+  align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
